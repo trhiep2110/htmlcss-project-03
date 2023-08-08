@@ -32,6 +32,21 @@ a {
     opacity: 0.9;
 }
 
+.heading {
+    color: #0d1111;
+    font-weight: 700;
+}
+
+.heading.lv1 {
+    font-size: 6.2rem;
+    line-height: 1.16;
+}
+
+.heading.lv2 {
+    font-size: 4.2rem;
+    line-height: 1.33;
+}
+
 /* ====================== Header ================================= */
 .menu {
     background: #fff;
@@ -109,10 +124,6 @@ a {
 
 .media-content .heading {
     margin-top: 18px;
-    color: #0d1111;
-    font-size: 6.2rem;
-    font-weight: 700;
-    line-height: 1.16;
     width: 458px;
 }
 
@@ -256,4 +267,61 @@ a {
     color: #fff;
     font-size: 1rem;
     font-weight: 500;
+}
+
+/* ====================== Features ================================= */
+.features {
+    margin-top: 130px;
+}
+/* Features-top */
+.features-top .sub-title {
+    color: #767e7e;
+    font-family: Poppins;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.features-top .heading {
+    margin: 18px 0;
+    width: 577px;
+}
+
+.features-top .desc {
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
+    width: 590px;
+}
+/* Features-list */
+.features .features-list {
+    display: flex;
+    margin-top: 80px;
+}
+
+.features-list .features-item:first-child {
+    width: 32%;
+}
+
+.features-list .features-item:nth-child(2) {
+    width: 36%;
+}
+
+.features-list .features-item:last-child {
+    width: 32%;
+}
+
+.features-list .features-item .title {
+    margin-top: 26px;
+    color: #0d1111;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.features-list .features-item .desc {
+    width: 224px;
+    margin-top: 16px;
+    color: #9da6a5;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.69;
 }
