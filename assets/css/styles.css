@@ -47,6 +47,21 @@ a {
     line-height: 1.33;
 }
 
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp, 1);
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.line-clamp.line-2 {
+    --line-clamp: 2;
+}
+
+.break-all {
+    word-break: break-all;
+}
+
 /* ====================== Header ================================= */
 .menu {
     background: #fff;
@@ -276,7 +291,6 @@ a {
 /* Features-top */
 .features-top .sub-title {
     color: #767e7e;
-    font-family: Poppins;
     font-size: 1.2rem;
     font-weight: 700;
 }
@@ -324,4 +338,110 @@ a {
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 1.69;
+}
+
+/* ====================== Courses ================================= */
+.courses {
+    margin-top: 130px;
+}
+
+/* Courses-top*/
+.courses-top .sub-title {
+    color: #767e7e;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.courses-top .heading {
+    margin-top: 18px;
+}
+
+.courses-top .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.courses-top .desc {
+    width: 525px;
+    margin-top: 19px;
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.78;
+}
+
+.courses-top .link {
+    text-decoration: underline;
+    color: #1ebfc1;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+/* Courses-list */
+.courses .courses-list {
+    position: relative;
+    margin-top: 79px;
+    display: flex;
+    gap: 47px;
+}
+
+.courses .courses-list .courses-item {
+    flex: 1;
+}
+
+.courses-list .courses-item .thumb {
+    width: 359px;
+    height: 393px;
+    border-radius: 8px;
+    object-fit: cover;
+    opacity: 0.35;
+    background: #d0efed;
+}
+
+.courses-list .courses-item .info {
+    position: absolute;
+    top: 322px;
+    width: 325px;
+    margin: 0 18px;
+    border-radius: 8px;
+    background: #fff;
+    padding: 18px 25px 29px;
+    box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
+}
+
+.courses-item .info .title {
+    color: #0d1111;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.courses-item .info .price {
+    display: inline-block;
+    margin-top: 20px;
+    color: #767e7e;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.courses-item .info .price strong {
+    color: #0d1111;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.courses-item .info .label {
+    margin-top: 8px;
+    color: #9da6a5;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.courses-item .info .foot {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    gap: 10px;
 }
