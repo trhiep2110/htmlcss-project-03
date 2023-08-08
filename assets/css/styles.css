@@ -22,7 +22,6 @@ a {
 
 .btn {
     display: inline-block;
-    padding: 12px 23px;
     min-width: 186px;
     text-align: center;
     font-weight: 600;
@@ -34,6 +33,9 @@ a {
 }
 
 /* ====================== Header ================================= */
+.menu {
+    background: #fff;
+}
 .menu.fixed {
     position: sticky;
     top: -44px;
@@ -76,9 +78,182 @@ a {
 }
 
 .menu .actions .action-btn {
+    padding: 12px 23px;
     margin-left: 24px;
     border-radius: 6px;
     color: #1ebfc1;
     font-size: 1.6rem;
     min-width: 108px;
+}
+
+/* ====================== Hero ================================= */
+.hero {
+    padding: 42px 0 79px;
+}
+
+.hero .body {
+    display: flex;
+}
+
+/* Hero left */
+.hero .media-content {
+    margin-top: 93px;
+    width: 39%;
+}
+
+.media-content .sub-title {
+    color: #767e7e;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.media-content .heading {
+    margin-top: 18px;
+    color: #0d1111;
+    font-size: 6.2rem;
+    font-weight: 700;
+    line-height: 1.16;
+    width: 458px;
+}
+
+.media-content .desc {
+    width: 374px;
+    color: #9da6a5;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.78;
+    margin-top: 46px;
+}
+
+.media-content .cta-group .hero-cta {
+    margin-top: 52px;
+    padding: 20px 41px;
+    border-radius: 14px;
+    background: #1ebfc1;
+    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+.cta-group .play {
+    margin-left: 50px;
+    width: 62px;
+    height: 62px;
+    border: none;
+    border-radius: 50%;
+    background: #fff;
+    background: transparent;
+    cursor: pointer;
+}
+
+.cta-group .play:hover {
+    box-shadow: 0px 22px 50px 0px rgba(0, 0, 0, 0.05);
+}
+
+/* Hero right */
+.hero .media-block {
+    margin-left: 71px;
+    position: relative;
+    width: 61%;
+}
+
+.hero .media-block .img {
+    margin-left: 65px;
+    width: 576px;
+    height: 631px;
+    object-fit: cover;
+    vertical-align: bottom;
+}
+
+.hero-courses {
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    padding: 15px 25px;
+    width: 157px;
+    left: 0;
+    bottom: 407px;
+    border-radius: 18px;
+    background: #fefefd;
+    box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+}
+
+.media-block .label {
+    color: #0d1111;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.hero-courses .label {
+    margin-left: 16px;
+}
+
+.hero-schedules {
+    position: absolute;
+    left: 0;
+    bottom: 46px;
+    border-radius: 24px;
+    background: #fff;
+    box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+    height: 132px;
+    padding: 16px 25px 23px;
+}
+
+.hero-schedules {
+    text-align: center;
+}
+
+.hero-schedules .time {
+    margin-top: 11px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-schedules .time .time-row {
+    margin: 5px 0;
+}
+
+.hero-schedules .special {
+    margin-top: 11px;
+}
+
+.hero-list {
+    position: absolute;
+    padding: 17px 35px;
+    right: 45px;
+    bottom: 41px;
+    height: 90px;
+    border-radius: 24px;
+    background: #fefefd;
+    box-shadow: 0px 12px 80px 0px rgba(0, 0, 0, 0.05);
+}
+
+.hero-list .avatar-group {
+    display: flex;
+}
+
+.hero-list .avatar-group .avatar {
+    margin-top: 8px;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: -7px;
+}
+
+.avatar-group .avatar:first-child {
+    margin-left: 0px;
+}
+
+.avatar-group .avatar-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1ebfc1;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
 }
