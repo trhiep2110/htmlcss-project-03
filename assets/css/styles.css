@@ -395,7 +395,6 @@ a {
     height: 393px;
     border-radius: 8px;
     object-fit: cover;
-    opacity: 0.35;
     background: #d0efed;
 }
 
@@ -444,4 +443,35 @@ a {
     margin-top: 10px;
     align-items: center;
     gap: 10px;
+}
+
+/* ====================== Row-qty ================================= */
+.row-qty {
+    margin: 389px 154px 0;
+}
+
+.row-qty .row-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-list .row-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row-list .row-item .qty {
+    color: #0d1111;
+    text-align: center;
+    font-size: 6.2rem;
+    font-weight: 700;
+}
+
+.row-list .row-item .qty-desc {
+    margin-top: 40px;
+    color: #767e7e;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 400;
 }
