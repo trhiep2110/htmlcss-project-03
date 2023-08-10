@@ -631,7 +631,7 @@ a {
 /* ============================= Footer ================================= */
 .Footer .row {
     display: flex;
-    padding: 134px 0 50px;
+    padding-top: 134px;
     align-items: flex-start;
 }
 
@@ -668,13 +668,17 @@ a {
     color: #535353;
     font-size: 1.6rem;
     font-weight: 400;
-    margin-bottom: 19px;
+    margin-bottom: 18px;
+}
+
+.Footer .socials {
+    margin-top: 20px;
 }
 
 .Footer .socials .social-media {
     display: flex;
-    margin-top: 20px;
     align-items: center;
+    padding-bottom: 14px;
 }
 
 .Footer .socials .social-media .desc {
@@ -682,5 +686,13 @@ a {
     margin-left: 9px;
     color: #535353;
     font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.Footer .copyright {
+    text-align: center;
+    margin: 80px 0 50px;
+    color: #b0b5b4;
+    font-size: 1.8rem;
     font-weight: 400;
 }
