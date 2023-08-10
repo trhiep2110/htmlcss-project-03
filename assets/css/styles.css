@@ -478,7 +478,7 @@ a {
 
 /* ============================= feedback ================================= */
 .feedback {
-    margin: 264px;
+    margin-top: 264px;
     padding-bottom: 41px;
 }
 
@@ -596,4 +596,35 @@ a {
 .feedback .block-feedback .avatar:last-child {
     right: 389px;
     top: 403px;
+}
+/* ============================= Call ================================= */
+.call {
+    margin-top: 130px;
+    background: #def6f5;
+}
+
+.call .body {
+    padding: 76px 0 88px;
+    display: flex;
+    align-items: center;
+}
+
+.call .info .desc {
+    width: 397px;
+    margin-top: 18px;
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.call .body .call-btn {
+    padding: 21px 41px;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    background: #2ac9bf;
+    border-radius: 14px;
+    margin-left: 410px;
 }
